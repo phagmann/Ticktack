@@ -1,0 +1,49 @@
+
+
+.circle {
+    position: relative;
+    border-radius: 100%;
+    background: green;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    
+}
+.egg {
+   position: relative;
+   display:block;
+   width: 62px;
+   height: 90px;
+   background-color: gray;
+   -webkit-border-radius: 63px 63px 63px 63px / 108px 108px 72px 72px;
+   border-radius:         50%  50%  50%  50%  / 60%   60%   40%  40%;
+  
+}
+
+.cross {
+  background: red;
+  height: 100px;
+  position: relative;
+  width: 20px;
+  transform:rotate(45deg)
+
+}
+.cross:after {
+  background: red;
+  content: "";
+  height: 20px;
+  left: -40px;
+  position: absolute;
+  top: 40px;
+  width: 100px;
+
+}
+
+
+
+

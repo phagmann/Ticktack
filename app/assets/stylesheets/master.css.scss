@@ -41,8 +41,30 @@
   position: absolute;
   top: 40px;
   width: 100px;
-
 }
+.linetop
+{
+   width: 500px;
+   height: 15px;
+   background: black;
+   position: relative;
+   left: 160px;
+   
+ }
+
+ .linetop:after
+
+ {
+   width: 300px;
+   height: 15px;
+   background: yellow;
+   position: relative;
+   top: 160px;
+   left: 160px;
+   
+ }
+
+
 
 
 

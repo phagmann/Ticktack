@@ -44,23 +44,50 @@
 }
 .linetop
 {
+   background: black;
    width: 500px;
    height: 15px;
-   background: black;
    position: relative;
-   left: 160px;
+   left: 200px;
+   bottom: 100px;
    
  }
 
  .linetop:after
 
  {
-   width: 300px;
+   background: black;
+   content: "";
+   width: 500px;
    height: 15px;
-   background: yellow;
+  
+   position: absolute;
+   bottom: 160px;
+   
+ }
+
+.linebottom
+{
+   background: black;
+   width: 500px;
+   height: 15px;
    position: relative;
-   top: 160px;
-   left: 160px;
+   transform:rotate(90deg);
+   bottom: 100px;
+   right: 75px;
+   
+ }
+
+ .linebottom:after
+
+ {
+   background: black;
+   content: "";
+   width: 500px;
+   height: 15px;
+  
+   position: absolute;
+   bottom: 160px;
    
  }
 

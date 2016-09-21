@@ -9,6 +9,27 @@
 //
 // Read Sprockets README (https://github.com/sstephenson/sprockets#sprockets-directives) for details
 // about supported directives.
+
+
+function myfunc(div,track) {
+
+  var className = div.getAttribute("class");
+  if(className == "col-sm-5 egg" && track % 2 == 0) {
+    div.className = "col-sm-5 circle";
+  }
+  else if(className == "col-sm-5 egg" && track % 2 == 1){
+     div.className =  "col-sm-5 cross"
+  }
+}
+
+
+function myfunc2(track){
+  return track + 1
+
+
+
+}
+
 //
 //= require jquery
 //= require jquery_ujs
